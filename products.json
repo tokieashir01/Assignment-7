@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Vintage T-shirt",
+        "description": "Tie-die half-sleeve T-shirt",
+        "price": "$25",
+        "categories": ["clothing", "vintage"]
+    },
+    {
+        "name": "Dior Sunglasses",
+        "description": "DiorBlackSuit N2I",
+        "price": "$490",
+        "categories": ["Eyewear", "Designer"]
+    },
+    {
+        "name": "Leather Jacket",
+        "description": "Black Leather Jacket",
+        "price": "$400",
+        "categories": ["clothing", "vintage", "Jacket"]
+    },
+    {
+        "name": "Bomber Jacket",
+        "description": "Red Varsity Bomber Jacket",
+        "price": "$250",
+        "categories": ["clothing", "Jacket"]
+    },
+    {
+        "name": "Air Jordan 1 Retro",
+        "description": "Retro High 'SATIN BRED' 2023",
+        "price": "$120",
+        "categories": ["footwear", "shoes", "sneakers"]
+    },
+    {
+        "name": "Vans Old Skool",
+        "description": "Old Skool Black White",
+        "price": "$80",
+        "categories": ["footwear", "shoes", "sneakers"]
+    },
+    {
+        "name": "Pirelli Cap",
+        "description": "Black Pirelli Cap",
+        "price": "$70",
+        "categories": ["headwear", "cap", "footwear","accessories"]
+    },
+    {
+        "name": "Futura Skateboard",
+        "description": "Supreme: White Text on Purple",
+        "price": "$65",
+        "categories": ["skateboard", "misc", "skate"]
+    },
+    {
+        "name": "Skateboard Wheels",
+        "description": "Red (set of 4)",
+        "price": "$40",
+        "categories": ["skateboard", "misc", "skate"]
+    },
+    {
+        "name": "Backpack",
+        "description": "Red Vintage",
+        "price": "$160",
+        "categories": ["Bag", "vintage","accessories"]
+    },
+    {
+        "name": "Waist Bag",
+        "description": "Black Designer",
+        "price": "$80",
+        "categories": ["accessories", "Bag","Designer"]
+    }
+]

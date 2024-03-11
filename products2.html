@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products2</title>
+
+</head>
+
+<body>
+    <div id="products-container"></div>
+
+    <div class="product-container" id="productDisplay">
+        Loading product data...
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $.get("products.json", function(data) {
+          // Assuming there's only one product in the JSON array
+          var product = data[0];
+          var productDisplay = document.getElementById("productDisplay");
+          productDisplay.innerHTML = `
+            <div class="product-name">${product.name}</div>
+            <div class="product-description">${product.description}</div>
+            <div class="product-price">Price: $${product.price}</div>
+            <div class="product-categories">Categories: ${product.categories.join(', ')}</div>
+          `;
+        });
+      });
+      </script>
+
+</body>
+</html>
